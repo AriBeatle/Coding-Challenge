@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+package arielrodriguez.peoplenames.main;
+
+import arielrodriguez.peoplenames.fileprocessor.FileProcessor;
+
+/**
+ * @author SG0203980
+ *
+ */
+public class PeopleNames {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {		
+		try {		
+			
+			//Read input file
+			FileProcessor fp = new FileProcessor("C:\\Users\\sg0203980\\Desktop\\J\\Backend-coding-test-20210209\\coding-test-data.txt");
+			
+			//Print the cardinality
+			fp.printCardinality();
+			
+			//Print the ten most common first and last names
+			fp.printMostCommonNames();
+			
+			//Print modified names
+					
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
