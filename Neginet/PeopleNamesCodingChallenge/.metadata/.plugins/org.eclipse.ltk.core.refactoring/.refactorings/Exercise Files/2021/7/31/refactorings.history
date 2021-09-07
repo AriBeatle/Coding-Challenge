@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;02_03&apos; to &apos;02-04&apos;&#x0D;&#x0A;- Original project: &apos;Exercise Files&apos;&#x0D;&#x0A;- Destination element: &apos;02-04&apos;&#x0D;&#x0A;- Original element: &apos;02_03&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move folder" element1="Ch02/02_03" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1627596591732" target="Ch02/02-04" units="0" version="1.0"/>
-</session>
